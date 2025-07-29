@@ -1,0 +1,18 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:weva:123456789abcdefghi",
+  "verificationMethod": [
+    {
+      "id": "did:weva:123456789abcdefghi#keys-1",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:weva:123456789abcdefghi",
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqh...==\n-----END PUBLIC KEY-----"
+    }
+  ],
+  "authentication": [
+    "did:weva:123456789abcdefghi#keys-1"
+  ],
+  "assertionMethod": [
+    "did:weva:123456789abcdefghi#keys-1"
+  ]
+}
